@@ -67,8 +67,7 @@ if (keyCode === LEFT_ARROW){
 }
 
 function draw(){
-console.log("upadated");
-
+var hi = createSprite(10,10,1,1);
 scale(rez);
 background(43,62,79);
 if (snake.eat(food)){

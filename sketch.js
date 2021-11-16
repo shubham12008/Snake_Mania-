@@ -12,7 +12,7 @@ var gamestate = 0;
 var serve = 0 ;
 var play = 1;
 var end = 2;
-var hi;
+
 
 function preload(){
 maze1img = loadImage("images/maze 1.png");
@@ -67,7 +67,7 @@ if (keyCode === LEFT_ARROW){
 }
 
 function draw(){
-var hi = createSprite(10,10,1,1);
+
 scale(rez);
 background(43,62,79);
 if (snake.eat(food)){

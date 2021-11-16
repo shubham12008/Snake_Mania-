@@ -12,7 +12,7 @@ var gamestate = 0;
 var serve = 0 ;
 var play = 1;
 var end = 2;
- 
+var hi;
 
 function preload(){
 maze1img = loadImage("images/maze 1.png");

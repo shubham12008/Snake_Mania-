@@ -67,7 +67,7 @@ if (keyCode === LEFT_ARROW){
 }
 
 function draw(){
-console.log("upadated")
+console.log("upadated");
 
 scale(rez);
 background(43,62,79);
